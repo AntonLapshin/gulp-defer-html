@@ -1,0 +1,30 @@
+{
+  "name": "gulp-defer-html",
+  "version": "1.0.0",
+  "description": "Gulp plugin. Defer html sections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonLapshin/gulp-defer-html.git"
+  },
+  "keywords": [
+    "gulp",
+    "defer",
+    "html",
+    "lazy",
+    "load",
+    "optimization",
+    "inject",
+    "page",
+    "score"
+  ],
+  "author": "AntonLapshin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonLapshin/gulp-defer-html/issues"
+  },
+  "homepage": "https://github.com/AntonLapshin/gulp-defer-html#readme"
+}

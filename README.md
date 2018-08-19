@@ -13,10 +13,12 @@ npm i -D gulp-defer-html
 ### Wrap your html code that you want to defer with
 
 ```html
-<defer-html data-name="my_html_code">This content will be loaded dynamically</defer-html>
+<defer-html data-name="my_html_code">
+  This content will be loaded dynamically
+</defer-html>
 ```
 
-### Use gulp-defer-html plugin in your `gulpfile.js`
+### Use `gulp-defer-html` plugin in your `gulpfile.js`
 
 ```js
 const deferHtml = require("gulp-defer-html");

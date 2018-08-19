@@ -1,7 +1,7 @@
 const through = require("through2");
 const fs = require("fs");
 
-const deferRx = /<defer-html data-name="([\s\S]*?)">([\s\S]*?)<\/defer-html>/g;
+const deferRx = /<defer-html data-name="([\s\S]*?)">([\s\S]*?)<\/defer-html>/;
 const defaults = {
   attr: "data-defer-html",
   tag: "div"
